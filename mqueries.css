@@ -1,4 +1,4 @@
-@media (min-width: 990px) and (max-width: 1199px) {
+@media (min-width: 990px) and (max-width: 1350px) {
   header {
     padding: 20px 100px 0;
   }
@@ -14,7 +14,7 @@
   }
 
   .virtual {
-    margin-top: 50px;
+    margin-top: 60px;
     width: 50%;
   }
 
@@ -53,7 +53,7 @@
   }
 
   .grid-services {
-    padding: 0 150px;
+    padding: 0 120px;
     row-gap: 20px;
     column-gap: 20px;
   }
@@ -73,11 +73,165 @@
     top: 35%;
   }
 
+  .server {
+    border-radius: 15px;
+    padding: 30px 15px;
+  }
+
   .btnmore {
     font-size: 15px;
     font-weight: 700;
     color: #458ff6;
     padding: 12px 20px;
     margin: 0 43.5%;
+  }
+
+  /* leading */
+
+  .leading {
+    margin: 70px 100px 0 70px;
+    column-gap: 70px;
+  }
+
+  .leadtext h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .leadtext p {
+    font-size: 15px;
+    line-height: 27px;
+  }
+
+  .btnlead {
+    padding: 12px 30px;
+  }
+
+  /* download app */
+  .appdown {
+    margin: 150px 50px 0 100px;
+    column-gap: 60px;
+  }
+
+  .apptext h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .apptext p {
+    font-size: 15px;
+    line-height: 27px;
+  }
+
+  .btnapp {
+    padding: 12px 30px;
+  }
+
+  /* testimonials */
+  .testimonials {
+    margin: 180px 100px 120px;
+  }
+
+  .testi {
+    padding: 10px 60px 50px;
+  }
+
+  .testihead {
+    font-size: 27px;
+    margin-bottom: 40px;
+  }
+
+  .testiprop {
+    gap: 20px;
+  }
+
+  .testiprop p {
+    font-size: 17px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .arrownav .img11 {
+    margin-right: 40px;
+  }
+
+  .arrownav .img22 {
+    margin-left: 40px;
+  }
+
+  /* article */
+  .articlemain {
+    margin: 150px 100px 50px;
+  }
+
+  .articlegrid {
+    column-gap: 25px;
+    margin-top: 70px;
+  }
+
+  .articlebox p,
+  .articlebox h3,
+  .articlebox h6 {
+    padding: 0 30px;
+    margin: 20px 0;
+  }
+
+  .articlebox h3 {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .articlebox h6 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .articlebox p {
+    font-size: 15px;
+  }
+
+  .artrec {
+    right: -100px;
+  }
+
+  .articletext h2 {
+    font-size: 32px;
+    text-align: left;
+    text-align: center;
+  }
+
+  .btnview {
+    padding: 15px 55px;
+    margin: 70px 38%;
+  }
+
+  /* footer */
+  .ffdetails {
+    padding: 50px 100px;
+    column-gap: 50px;
+  }
+
+  .footcom h4,
+  .footreg h4,
+  .foothelp h4 {
+    font-size: 15px;
+    margin: 12px 0;
+  }
+
+  .footdetails h4 {
+    font-size: 15px;
+  }
+
+  .footdetails h3 {
+    font-size: 22px;
+    margin: 12px 0;
+  }
+
+  .footdetails p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 10px 0;
   }
 }

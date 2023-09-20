@@ -539,7 +539,6 @@ header {
 
 .btnview {
   padding: 15px 65px;
-  width: 200px;
   color: #458ff6;
   font-size: 18px;
   font-weight: 700;
@@ -547,7 +546,7 @@ header {
   border: 1.4px solid #458ff6;
   border-radius: 55px;
   background-color: white;
-  margin: 100px 42%;
+  margin: 100px 40%;
 }
 
 /* footer */
@@ -584,6 +583,14 @@ header {
   font-weight: 300;
   line-height: 28px;
   text-align: left;
+}
+
+.footdetails h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  margin: 15px 0;
 }
 
 .footdetails p {
