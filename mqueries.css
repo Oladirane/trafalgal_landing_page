@@ -1,0 +1,83 @@
+@media (min-width: 990px) and (max-width: 1199px) {
+  header {
+    padding: 20px 100px 0;
+  }
+
+  .illustration {
+    gap: 5%;
+  }
+
+  .virtual h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .virtual {
+    margin-top: 50px;
+    width: 50%;
+  }
+
+  .virtual p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 20px 0;
+  }
+
+  .btncontact {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 30px;
+  }
+
+  .our-services {
+    margin-top: 70px;
+    padding: 0 100px;
+  }
+
+  .kkk {
+    padding: 0 10%;
+  }
+
+  .servtext h3 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .addj {
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300px;
+  }
+
+  .grid-services {
+    padding: 0 150px;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .img99 {
+    position: absolute;
+    left: 0;
+    top: -250px;
+  }
+
+  .img99 img {
+    width: 100%;
+  }
+  .img97 {
+    position: absolute;
+    right: 100px;
+    top: 35%;
+  }
+
+  .btnmore {
+    font-size: 15px;
+    font-weight: 700;
+    color: #458ff6;
+    padding: 12px 20px;
+    margin: 0 43.5%;
+  }
+}
