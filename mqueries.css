@@ -1,6 +1,15 @@
-@media (min-width: 950px) and (max-width: 1350px) {
+@media (min-width: 960px) and (max-width: 1350px) {
   header {
     padding: 20px 100px 0;
+  }
+
+  .topnav {
+    padding: 20px 100px;
+  }
+
+  .topnav ul {
+    gap: 25px;
+    margin-right: 0px;
   }
 
   .illustration {
@@ -235,3 +244,7 @@
     margin: 10px 0;
   }
 }
+
+@media (min-width: 600px) and (max-width: 960px) {
+}
+

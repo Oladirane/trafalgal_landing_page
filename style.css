@@ -12,6 +12,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  padding: 0 150px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 250;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .topnav ul {
@@ -199,6 +206,8 @@ header {
 }
 
 .btnmore {
+  display: flex;
+  justify-content: center;
   font-size: 18px;
   font-weight: 700;
   color: #458ff6;
@@ -206,7 +215,6 @@ header {
   border: 1.4px solid #458ff6;
   border-radius: 55px;
   background-color: white;
-  margin: 0 43%;
 }
 
 /* leading */
@@ -216,6 +224,7 @@ header {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   column-gap: 100px;
+  align-items: center;
 }
 
 .leading img {
@@ -269,6 +278,7 @@ header {
   display: grid;
   grid-template-columns: 0.62fr 1.2fr;
   column-gap: 100px;
+  align-items: center;
 }
 
 .apptext h3 {
@@ -313,6 +323,8 @@ header {
   border: 1.4px solid #458ff6;
   border-radius: 55px;
   background-color: white;
+  display: flex;
+  align-items: center;
 }
 
 .btnapp img {
@@ -354,7 +366,7 @@ header {
   border-radius: 6px;
   background-color: white;
   bottom: -60px;
-  left: 47%;
+  left: 40%;
 }
 
 .testiprop {
@@ -533,7 +545,7 @@ header {
   background-color: black;
   position: absolute;
   bottom: -30px;
-  left: 47.5%;
+  left: 45%;
 }
 
 .btnview {
@@ -627,4 +639,236 @@ footer {
   position: absolute;
   top: -70px;
   right: 50px;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 20px 20px 0;
+  }
+
+  body {
+  }
+  .topnav {
+    padding: 0px 20px;
+  }
+
+  .topnav h1,
+  .topnav h1 span {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .topnav ul {
+    display: none;
+    gap: 10px;
+  }
+
+  .topnav ul li {
+    font-size: 14px;
+  }
+
+  .illustration {
+    flex-direction: column;
+  }
+
+  .virtual {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .illus {
+    width: 100%;
+  }
+
+  .grid-services {
+    padding: 0 40px;
+    grid-template-columns: 1fr;
+  }
+
+  .server {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .server p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  .leading {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 100px;
+    align-items: center;
+  }
+
+  .btnmore {
+    padding: 5px 10px;
+    font-size: 12px;
+    width: 100px;
+    margin: 0 40%;
+  }
+
+  .leadtext p,
+  .leadtext h3 {
+    text-align: center;
+  }
+
+  .leadtext .leadrec {
+    position: absolute;
+    width: 56px;
+    height: 2px;
+    bottom: -60px;
+    left: 40%;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  .btnlead {
+    padding: 5px 10px;
+    font-size: 12px;
+    width: 100px;
+    margin: 0 40%;
+  }
+
+  .appdown {
+    margin: 20px;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .apptext h3,
+  .apptext p {
+    text-align: center;
+  }
+
+  .kkk {
+    padding: 0 20px;
+  }
+
+  .apprec {
+    bottom: -30px;
+    left: 40%;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  .btnapp {
+    padding: 5px 10px;
+    font-size: 12px;
+    width: 100px;
+    margin: 0 40%;
+  }
+
+  .btnapp img {
+    margin-left: 7px;
+  }
+
+  .testimonials {
+    margin: 20px;
+  }
+
+  .testi {
+    position: relative;
+    color: white;
+    padding: 20px;
+  }
+
+  .testiprop {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+
+  .testiprop img {
+    width: 25%;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+
+  .testiprop p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .testihead {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+
+  .testiname h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    text-align: center;
+    margin: 0;
+  }
+
+  .testiname h4 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .testiname {
+    width: 100%;
+    text-align: center;
+  }
+
+  .testihead .testirec {
+    position: absolute;
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+    background-color: white;
+    bottom: -40px;
+    left: 40%;
+  }
+
+  .articlemain {
+    margin: 20px;
+  }
+
+  .articlegrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    margin-top: 70px;
+  }
+
+  .btnview {
+    padding: 5px 10px;
+    font-size: 12px;
+    width: 80px;
+    margin: 20px 40%;
+  }
+
+  .ffdetails {
+    padding: 50px;
+    grid-template-columns: 1.5fr 1fr;
+    row-gap: 30px;
+    text-align: center;
+  }
+
+  .artrec {
+    right: -20px;
+  }
+
+  .footcom h3,
+  .footreg h3,
+  .foothelp h3,
+  .footcom h4,
+  .footreg h4,
+  .foothelp h4 {
+    margin: 10px;
+  }
 }
