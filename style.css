@@ -689,6 +689,7 @@ footer {
   }
 
   .grid-services {
+    margin: 30px 0;
     padding: 0 40px;
     grid-template-columns: 1fr;
   }
@@ -708,7 +709,7 @@ footer {
   }
 
   .leading {
-    margin: 20px;
+    margin: 30px 20px;
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 100px;

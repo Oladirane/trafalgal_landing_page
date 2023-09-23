@@ -246,5 +246,92 @@
 }
 
 @media (min-width: 600px) and (max-width: 960px) {
-}
+  header {
+    padding: 20px 40px;
+  }
 
+  .topnav {
+    padding: 0;
+  }
+
+  .topnav ul {
+    gap: 15px;
+    margin: 0;
+  }
+
+  .topnav ul a {
+    background-color: #458ff6;
+    color: white;
+  }
+
+  .virtual,
+  .illus {
+    width: 50%;
+  }
+
+  .grid-services {
+    padding: 0 20px;
+    margin: 70px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 35px;
+    column-gap: 35px;
+  }
+
+  .server {
+    padding: 20px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+
+  .server h3 {
+    /* font-size: 24px;
+    font-weight: 700; */
+    text-align: center;
+  }
+
+  .server img {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .server p {
+    /* font-size: 16px;
+    font-weight: 300;
+    line-height: 28px; */
+    text-align: center;
+  }
+
+  .btnmore {
+    padding: 10px 25px;
+    font-size: 12px;
+    margin: 0 40%;
+  }
+
+  .leading {
+    margin: 30px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 100px;
+    align-items: center;
+  }
+
+  .leadtext .leadrec {
+    position: absolute;
+    width: 56px;
+    height: 2px;
+    bottom: -60px;
+    left: 40%;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  .leadtext p,
+  .leadtext h3 {
+    text-align: center;
+  }
+}
