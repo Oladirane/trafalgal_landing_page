@@ -25,15 +25,15 @@ header {
   padding: 0;
   margin: 0;
   display: flex;
-  list-style-type: none;
   gap: 40px;
   margin-right: 20px;
 }
 
-.topnav ul li {
+.topnav ul a {
   font-size: 18px;
   font-weight: 400;
   color: #1f1534;
+  text-decoration: none;
 }
 
 .topnav ul li span {
@@ -206,8 +206,7 @@ header {
 }
 
 .btnmore {
-  display: flex;
-  justify-content: center;
+  margin: 0 43%;
   font-size: 18px;
   font-weight: 700;
   color: #458ff6;
