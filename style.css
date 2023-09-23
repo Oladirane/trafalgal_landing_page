@@ -274,10 +274,18 @@ header {
 /* download app */
 .appdown {
   margin: 150px 120px 0 250px;
-  display: grid;
-  grid-template-columns: 0.62fr 1.2fr;
+  display: flex;
+  flex-direction: row;
   column-gap: 100px;
   align-items: center;
+}
+
+.apptext {
+  flex: 0.62;
+}
+
+.appimg {
+  flex: 1.2;
 }
 
 .apptext h3 {
@@ -739,6 +747,7 @@ footer {
   .appdown {
     margin: 20px;
     grid-template-columns: 1fr;
+    flex-direction: column-reverse;
     row-gap: 30px;
   }
 
@@ -853,8 +862,7 @@ footer {
 
   .ffdetails {
     padding: 50px;
-    grid-template-columns: 1.5fr 1fr;
-    row-gap: 30px;
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
