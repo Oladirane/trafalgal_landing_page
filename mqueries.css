@@ -314,10 +314,8 @@
 
   .leading {
     margin: 30px 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 100px;
-    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
   }
 
   .leadtext .leadrec {
@@ -332,6 +330,51 @@
 
   .leadtext p,
   .leadtext h3 {
-    text-align: center;
+    text-align: right;
+  }
+
+  .appdown {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .testi {
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .testimonials {
+    margin: 20px;
+    position: relative;
+  }
+
+  .articlemain {
+    margin: 20px;
+  }
+
+  .articlegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+  }
+
+  .artrec {
+    position: absolute;
+    top: -150px;
+    right: -20px;
+  }
+
+  .btnview {
+    padding: 10px 25px;
+    font-size: 12px;
+    margin: 10% 40%;
+  }
+
+  .ffdetails {
+    padding: 10px;
+    column-gap: 50px;
+    margin: 0;
   }
 }
