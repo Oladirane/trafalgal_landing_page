@@ -649,7 +649,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-  body{
+  body {
     margin: 0;
   }
   header {
@@ -872,6 +872,12 @@ footer {
 
   .artrec {
     right: -20px;
+  }
+
+  .foothelp,
+  .footcom,
+  .footreg {
+    display: none;
   }
 
   .footcom h3,
