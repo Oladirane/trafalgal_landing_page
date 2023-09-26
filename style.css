@@ -41,6 +41,13 @@ header {
   text-decoration: none;
 }
 
+.topnav ul a:hover {
+  color: white;
+  background-color: #458ff6;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
 .topnav ul li span {
   font-weight: 700;
 }
@@ -648,7 +655,7 @@ footer {
 
 .lastele {
   position: absolute;
-  bottom: -20px;
+  bottom: 0;
   left: -20px;
   z-index: 3;
 }
@@ -684,7 +691,7 @@ footer {
     gap: 10px;
   }
 
-  .topnav ul li {
+  .topnav ul a {
     font-size: 14px;
   }
 

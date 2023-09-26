@@ -262,10 +262,7 @@
     margin: 0;
   }
 
-  .topnav ul a {
-    background-color: #458ff6;
-    color: white;
-  }
+
 
   .virtual,
   .illus {
@@ -274,6 +271,10 @@
 
   .grab {
     padding: 0 50px;
+  }
+
+  .apptext {
+    text-align: left;
   }
 
   .grid-services {
@@ -328,6 +329,10 @@
     bottom: -40px;
     left: 70%;
     right: 15px;
+  }
+
+  .leadtext {
+    text-align: right;
   }
 
   .leadtext p,
