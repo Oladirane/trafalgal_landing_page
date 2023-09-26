@@ -135,6 +135,10 @@
     line-height: 27px;
   }
 
+  .apptext button {
+    text-align: left;
+  }
+
   /* .btnapp {
     padding: 12px 30px;
   } */
@@ -262,8 +266,6 @@
     margin: 0;
   }
 
-
-
   .virtual,
   .illus {
     width: 50%;
@@ -271,10 +273,6 @@
 
   .grab {
     padding: 0 50px;
-  }
-
-  .apptext {
-    text-align: left;
   }
 
   .grid-services {
