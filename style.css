@@ -22,6 +22,10 @@ header {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+#id {
+  z-index: 25;
+}
+
 .topnav ul {
   padding: 0;
   margin: 0;
@@ -121,6 +125,7 @@ header {
 .kkk {
   text-align: center;
   padding: 0 10%;
+  z-index: 208;
 }
 
 .servtext h3 {
@@ -151,7 +156,6 @@ header {
 
 /*our services grid*/
 .grid-services {
-  padding: 0 250px;
   margin: 70px 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -190,6 +194,7 @@ header {
   position: absolute;
   left: 0;
   top: -260px;
+  z-index: -208;
 }
 
 .img99 img {
@@ -198,6 +203,8 @@ header {
 
 .grab {
   position: relative;
+  padding: 0 250px;
+  text-align: center;
 }
 
 .img97 {
@@ -207,7 +214,6 @@ header {
 }
 
 .btnmore {
-  margin: 0 43%;
   font-size: 18px;
   font-weight: 700;
   color: #458ff6;
@@ -229,6 +235,10 @@ header {
 
 .leading img {
   width: 100%;
+}
+
+.leadtext {
+  text-align: center;
 }
 
 .leadtext h3 {
@@ -283,6 +293,7 @@ header {
 
 .apptext {
   flex: 0.62;
+  text-align: center;
 }
 
 .appimg {
@@ -331,8 +342,6 @@ header {
   border: 1.4px solid #458ff6;
   border-radius: 55px;
   background-color: white;
-  display: flex;
-  align-items: center;
 }
 
 .btnapp img {
@@ -462,6 +471,7 @@ header {
 
 .articlemain {
   margin: 150px 200px 50px;
+  text-align: center;
 }
 
 .articleimgg {
@@ -557,15 +567,15 @@ header {
 }
 
 .btnview {
-  padding: 15px 65px;
+  margin-top: 30px;
+  padding: 15px 50px;
   color: #458ff6;
   font-size: 18px;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   border: 1.4px solid #458ff6;
   border-radius: 55px;
   background-color: white;
-  margin: 100px 40%;
 }
 
 /* footer */
@@ -652,7 +662,6 @@ footer {
 @media (max-width: 600px) {
   body {
     margin: 0;
-    overflow-x: hidden;
   }
   header {
     padding: 20px 20px 0;
@@ -695,8 +704,11 @@ footer {
 
   .grid-services {
     margin: 30px 0;
-    padding: 0 40px;
     grid-template-columns: 1fr;
+  }
+
+  .grab {
+    padding: 0 40px;
   }
 
   .server {
@@ -721,13 +733,6 @@ footer {
     align-items: center;
   }
 
-  .btnmore {
-    padding: 5px 10px;
-    font-size: 12px;
-    width: 100px;
-    margin: 0 40%;
-  }
-
   .leadtext p,
   .leadtext h3 {
     text-align: center;
@@ -743,12 +748,12 @@ footer {
     background-color: black;
   }
 
-  .btnlead {
+  /* .btnlead {
     padding: 5px 10px;
     font-size: 12px;
     width: 100px;
     margin: 0 40%;
-  }
+  } */
 
   .appdown {
     margin: 20px;
@@ -764,6 +769,7 @@ footer {
 
   .kkk {
     padding: 0 20px;
+    z-index: 208;
   }
 
   .apprec {
@@ -773,12 +779,12 @@ footer {
     background-color: black;
   }
 
-  .btnapp {
+  /* .btnapp {
     padding: 5px 10px;
     font-size: 12px;
     width: 100px;
     margin: 0 40%;
-  }
+  } */
 
   .btnapp img {
     margin-left: 7px;
@@ -859,12 +865,12 @@ footer {
     margin-top: 70px;
   }
 
-  .btnview {
+  /* .btnview {
     padding: 5px 10px;
     font-size: 12px;
     width: 80px;
     margin: 20px 40%;
-  }
+  } */
 
   .ffdetails {
     padding: 50px;
