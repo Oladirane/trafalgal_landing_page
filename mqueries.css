@@ -135,10 +135,6 @@
     line-height: 27px;
   }
 
-  .apptext button {
-    text-align: left;
-  }
-
   /* .btnapp {
     padding: 12px 30px;
   } */
@@ -257,6 +253,9 @@
     padding: 20px 50px;
   }
 
+  .apptext {
+    text-align: left;
+  }
   .topnav {
     padding: 10px 50px;
   }
