@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   padding: 20px 150px 0;
 }
@@ -44,8 +48,6 @@ header {
 .topnav ul a:hover {
   color: white;
   background-color: #458ff6;
-  padding: 5px 10px;
-  border-radius: 25px;
 }
 
 .topnav ul li span {
