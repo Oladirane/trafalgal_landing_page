@@ -54,6 +54,10 @@ header {
   font-weight: 700;
 }
 
+.hamburger {
+  display: none;
+}
+
 .topnav h1 {
   color: #233348;
   font-weight: 700;
@@ -672,30 +676,91 @@ footer {
     margin: 0;
   }
   header {
-    padding: 20px 20px 0;
+    padding: 0 20px 0;
+  }
+
+  .contain {
+    height: 25px;
+    width: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .contain img {
+    z-index: 5000;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu {
+    position: fixed;
+    background-color: #458ff6;
+    right: 0;
+    top: 0;
+    margin: 0;
+    width: 30%;
+    padding: 50px 20px;
+    border-bottom-left-radius: 25px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    z-index: 1000;
+    transition: 0.05s;
+    transform: translateX(50000px);
+  }
+
+  .showmenu {
+    transform: translateX(0);
+  }
+
+  .hamburger ul li {
+    list-style: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .hamburger ul li:last-child {
+    border: none;
+  }
+
+  .hamburger ul a {
+    text-decoration: none;
+    color: snow;
   }
 
   .topnav {
-    padding: 0px 20px;
-  }
-
-  .topnav h1,
-  .topnav h1 span {
-    font-size: 20px;
-    margin: 10px;
-  }
-
-  .topnav ul {
     display: none;
-    gap: 10px;
   }
 
-  .topnav ul a {
-    font-size: 14px;
+  .hamburger {
+    padding: 0px 20px;
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
   }
 
   .illustration {
     flex-direction: column;
+    z-index: -5;
+  }
+
+  .topelement {
+    z-index: -20;
   }
 
   .virtual {
