@@ -26,10 +26,6 @@ header {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.topnav img {
-  display: none;
-}
-
 #id {
   z-index: 25;
 }
@@ -692,17 +688,6 @@ footer {
   .topnav ul {
     display: none;
     gap: 10px;
-  }
-
-  .topnav img {
-    display: flex;
-    width: 40px;
-    cursor: pointer;
-  }
-
-  .dark {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 25px;
   }
 
   .topnav ul a {
