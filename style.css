@@ -2,7 +2,6 @@ body {
   font-family: "Mulish", sans-serif;
   margin: 0;
   background-color: white;
-  overflow-x: hidden;
 }
 
 html {
@@ -680,7 +679,7 @@ footer {
   }
 
   .contain {
-    height: 25px;
+    height: 19px;
     width: 40px;
     margin-top: 20px;
     display: flex;
@@ -696,6 +695,19 @@ footer {
     width: 30px;
     background-color: black;
     z-index: 10000;
+    transition: 0.3s;
+  }
+
+  .contain.active .menulogo:nth-child(2) {
+    opacity: 0;
+  }
+
+  .contain.active .menulogo:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .contain.active .menulogo:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   .main {
@@ -708,8 +720,7 @@ footer {
 
   .menu {
     position: fixed;
-    background-color: #458ff6;
-    right: 0;
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
     top: 0;
     margin: 0;
     width: 30%;
@@ -720,12 +731,12 @@ footer {
     align-items: center;
     height: 100%;
     z-index: 1000;
-    transition: 0.2s;
-    transform: translateX(500px);
+    transition: 0.5s;
+    right: -100%;
   }
 
-  .showmenu {
-    transform: translateX(0);
+  .menu.active {
+    right: 0;
   }
 
   .hamburger ul li {
@@ -743,6 +754,11 @@ footer {
   .hamburger ul a {
     text-decoration: none;
     color: snow;
+    transition: color 0.2s;
+  }
+
+  .hamburger ul a:hover {
+    color: black;
   }
 
   .topnav {
@@ -768,7 +784,7 @@ footer {
   .illustration {
     flex-direction: column;
     z-index: -5;
-    margin-top: 70px;
+    margin-top: 120px;
   }
 
   .topelement {
@@ -895,6 +911,10 @@ footer {
     border-radius: 50%;
   }
 
+  .testelement {
+    right: -20px;
+  }
+
   .testiprop p {
     width: 100%;
     font-size: 15px;
@@ -965,9 +985,9 @@ footer {
     right: -20px;
   }
 
-  .foothelp,
+  /* .foothelp,
   .footcom,
   .footreg {
     display: none;
-  }
+  } */
 }
