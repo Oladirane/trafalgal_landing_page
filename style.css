@@ -695,7 +695,7 @@ footer {
     width: 30px;
     background-color: black;
     z-index: 10000;
-    transition: 0.3s;
+    transition: 0.2s;
   }
 
   .contain.active .menulogo:nth-child(2) {

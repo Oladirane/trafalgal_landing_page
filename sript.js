@@ -13,4 +13,5 @@ function olad() {
 }
 
 logo.addEventListener("click", hambur);
+
 closure.forEach((item) => item.addEventListener("click", olad));
