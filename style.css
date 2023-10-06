@@ -387,6 +387,19 @@ header {
   margin-bottom: 60px;
 }
 
+#carousel2{
+  margin-top: 50px;
+  display: none;
+}
+
+#carousel2.active{
+  display: block;
+}
+
+#carousel1.active{
+  display: none;
+}
+
 .testihead .testirec {
   position: absolute;
   width: 56px;
