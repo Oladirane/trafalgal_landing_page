@@ -459,14 +459,14 @@ header {
   justify-content: center;
 }
 
-.arrownav p {
+/* .arrownav p {
   background: #5b9bf3;
   height: 10px;
   width: 10px;
   opacity: 30%;
   border-radius: 50%;
   margin: 0 8px;
-}
+} */
 
 .arrownav .active222 {
   opacity: 100%;
@@ -474,10 +474,18 @@ header {
 
 .arrownav .img11 {
   margin-right: 70px;
+  transform: rotate(180deg);
+  opacity: 0.7;
 }
 
 .arrownav .img22 {
   margin-left: 70px;
+  opacity: 0.7;
+}
+
+.arrownav img:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .articlemain {
