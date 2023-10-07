@@ -117,7 +117,7 @@ header {
   margin: 40px 0;
 }
 
-.btncontact {
+.btncontact a {
   color: white;
   font-size: 18px;
   font-weight: 700;
@@ -125,7 +125,12 @@ header {
   background-color: #458ff6;
   border: none;
   border-radius: 25px;
+  text-decoration: none;
 }
+
+/* .btncontact {
+  cursor: pointer;
+} */
 
 /* our service */
 
@@ -407,7 +412,7 @@ header {
   border-radius: 6px;
   background-color: white;
   bottom: -60px;
-  left: 40%;
+  left: 42%;
 }
 
 .testiprop {
