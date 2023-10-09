@@ -124,16 +124,9 @@ header {
   background-color: #458ff6;
   border: none;
   border-radius: 25px;
-}
-
-.btncontact a {
-  text-decoration: none;
   color: white;
-}
-
-/* .btncontact {
   cursor: pointer;
-} */
+}
 
 /* our service */
 
