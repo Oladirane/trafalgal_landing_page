@@ -117,15 +117,18 @@ header {
   margin: 40px 0;
 }
 
-.btncontact a {
-  color: white;
+.btncontact {
   font-size: 18px;
   font-weight: 700;
   padding: 15px 35px;
   background-color: #458ff6;
   border: none;
   border-radius: 25px;
+}
+
+.btncontact a {
   text-decoration: none;
+  color: white;
 }
 
 /* .btncontact {
@@ -392,16 +395,16 @@ header {
   margin-bottom: 60px;
 }
 
-#carousel2{
+#carousel2 {
   margin-top: 50px;
   display: none;
 }
 
-#carousel2.active{
+#carousel2.active {
   display: block;
 }
 
-#carousel1.active{
+#carousel1.active {
   display: none;
 }
 
@@ -699,7 +702,9 @@ footer {
 @media (max-width: 600px) {
   body {
     margin: 0;
+    overflow-x: hidden;
   }
+
   header {
     padding: 0 20px 0;
   }
