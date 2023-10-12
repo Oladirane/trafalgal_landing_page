@@ -3,7 +3,6 @@ body {
   margin: 0;
   background-color: white;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
 
 html {
@@ -83,7 +82,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* position: relative; */
   gap: 9%;
 }
 
